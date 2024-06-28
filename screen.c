@@ -31,7 +31,7 @@ struct Screen clone(struct Screen *scrn) {
   struct Screen scrn_new;
 
   for (uint8_t i = 0; i < LEN; i++) {
-    for (uint8_t j = 0; j < LEN; j++) {
+    for (uint8_t j = 0; j < BRE; j++) {
       scrn_new.arr[i][j] = scrn->arr[i][j];
     }
   }
