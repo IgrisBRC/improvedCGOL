@@ -1,6 +1,5 @@
 
 #include "screen.h"
-#include <stdint.h>
 
 struct Screen init() {
   struct Screen scrn;
