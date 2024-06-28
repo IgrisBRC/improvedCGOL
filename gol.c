@@ -1,6 +1,5 @@
 
 #include "gol.h"
-#include "screen.h"
 
 uint8_t neighbours(struct Screen *scrn, int y, int x) {
   uint8_t n = 0;
