@@ -1,5 +1,6 @@
 
 #include "gol.h"
+#include "screen.h"
 
 int main() {
   struct Screen scrn = init();
